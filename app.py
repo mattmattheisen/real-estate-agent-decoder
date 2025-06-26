@@ -907,7 +907,7 @@ realtor_speak = {
 st.markdown('<h1 class="main-header">🏠 Real Estate Agent Decoder</h1>', unsafe_allow_html=True)
 st.markdown('<p class="tagline">Uncover hidden costs and conflicts of interest in your real estate transaction</p>', unsafe_allow_html=True)
 st.markdown('<h3 style="text-align: center; color: #d32f2f;">Don\'t Get Sold - Get Decoded</h3>', unsafe_allow_html=True)
-
+st.markdown('<div style="text-align: center; color: #666; font-size: 0.9rem; margin: 1rem 0; padding: 1rem; background-color: #f8f9fa; border-radius: 5px;"><strong>Disclaimer:</strong> This tool is for educational purposes only. Always consult with qualified professionals for financial advice.</div>', unsafe_allow_html=True)
 # Sidebar navigation
 st.sidebar.title("🏠 Navigation")
 main_tool = st.sidebar.selectbox(
